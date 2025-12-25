@@ -79,7 +79,7 @@ const Contact = () => {
                                 </div>
                                 <div className="ml-4">
                                     <h4 className="text-lg font-semibold text-slate-800">Office Location</h4>
-                                    <p className="text-gray-600">123 Startup Hub, Tech Park, Bangalore, India 560001</p>
+                                    <p className="text-gray-600">Kinathukidavu, Coimbatore, India 641202</p>
                                 </div>
                             </div>
 
@@ -89,7 +89,7 @@ const Contact = () => {
                                 </div>
                                 <div className="ml-4">
                                     <h4 className="text-lg font-semibold text-slate-800">Email Us</h4>
-                                    <p className="text-gray-600">hello@statutek.com</p>
+                                    <p className="text-gray-600">statutekhelp@gmail.com</p>
                                 </div>
                             </div>
 
@@ -99,7 +99,7 @@ const Contact = () => {
                                 </div>
                                 <div className="ml-4">
                                     <h4 className="text-lg font-semibold text-slate-800">Call Us</h4>
-                                    <p className="text-gray-600">+91 98765 43210</p>
+                                    <p className="text-gray-600">+91 6383191041</p>
                                 </div>
                             </div>
                         </div>
