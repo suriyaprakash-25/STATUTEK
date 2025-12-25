@@ -35,29 +35,29 @@ const Home = () => {
                 <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop')] bg-cover bg-center opacity-10"></div>
                 <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/95 to-primary/80"></div>
 
-                <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-10 md:pt-0">
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
                     >
-                        <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight">
-                            Compliance Meets <span className="text-accent">Technology</span>
+                        <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight leading-tight">
+                            Compliance Meets <span className="text-accent block sm:inline">Technology</span>
                         </h1>
-                        <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
+                        <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed px-2">
                             Helping startups and MSMEs stay compliant while scaling digitally.
                             Your trusted partner for legal, registration, and tech solutions.
                         </p>
-                        <div className="flex flex-col sm:flex-row justify-center gap-4">
+                        <div className="flex flex-col sm:flex-row justify-center gap-4 px-4 sm:px-0">
                             <Link
                                 to="/services"
-                                className="px-8 py-4 rounded-full bg-accent text-primary font-bold text-lg hover:bg-white transition-all transform hover:-translate-y-1 shadow-lg shadow-accent/20"
+                                className="w-full sm:w-auto px-8 py-4 rounded-full bg-accent text-primary font-bold text-lg hover:bg-white transition-all transform hover:-translate-y-1 shadow-lg shadow-accent/20"
                             >
                                 Get Started
                             </Link>
                             <Link
                                 to="/contact"
-                                className="px-8 py-4 rounded-full bg-white/10 text-white font-bold text-lg border border-white/20 hover:bg-white/20 transition-all backdrop-blur-sm"
+                                className="w-full sm:w-auto px-8 py-4 rounded-full bg-white/10 text-white font-bold text-lg border border-white/20 hover:bg-white/20 transition-all backdrop-blur-sm"
                             >
                                 Talk to an Expert
                             </Link>

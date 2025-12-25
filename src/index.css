@@ -10,5 +10,17 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
-  @apply bg-light text-slate-800;
+  @apply bg-light text-slate-800 overflow-x-hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Ensure no horizontal scroll on mobile */
+#root {
+  @apply overflow-x-hidden w-full;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
 }
